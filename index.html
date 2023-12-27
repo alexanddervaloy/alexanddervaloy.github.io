@@ -1,29 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!-- Otras etiquetas del encabezado -->
-    <!-- ... -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            text-align: center;
+        }
+
+        header {
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+
+        section {
+            margin-top: 20px;
+        }
+
+        footer {
+            margin-top: 20px;
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-	<header>
+    <header>
         <h1>Mi Sitio Web</h1>
-    </header>
-    <!-- Contenido de la página -->
-
-    <!-- Pegar el código del widget de Dialogflow aquí -->
-    <iframe
+		
+	<iframe
     allow="microphone;"
     width="350"
     height="430"
     src="https://console.dialogflow.com/api-client/demo/embedded/9b6e1b3c-c3c8-46bc-87c3-3a45ee7fb505">
 	</iframe>
-    <df-messenger
-        chat-title="Nombre de tu Chatbot"
-        agent-id="ID-de-tu-agente"
-        language-code="es"
-    ></df-messenger>
+    </header>
 
-    <!-- Otras partes del cuerpo de la página -->
-    <!-- ... -->
+    <section>
+        <h2>Bienvenido a mi sitio web</h2>
+        <p>Esta es una página web de ejemplo. Puedes personalizar este contenido según tus necesidades.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Mi Sitio Web. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
